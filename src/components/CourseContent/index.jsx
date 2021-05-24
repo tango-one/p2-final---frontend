@@ -42,11 +42,11 @@ const CourseContent = () => {
           </h5>
         </div>
         <div className="row w-100 py-4 section__two">
-          <div className="col-4">
+          <div className="col-6">
             <h5>This is what you will learn</h5>
             <p>{data.learn}</p>
           </div>
-          <div className="col-4">
+          <div className="col-6">
             <h5>This course is for</h5>
             <p>{data.course_for}</p>
           </div>
@@ -58,7 +58,7 @@ const CourseContent = () => {
               <Label for="email">E-mail</Label>
               <Input type="email" name="email" id="email" />
             </FormGroup>
-            <button>SUBMIT</button>
+            <button disabled>SUBMIT</button>
           </Form>
         </div>
       </div>
